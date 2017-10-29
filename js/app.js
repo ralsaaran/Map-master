@@ -49,251 +49,91 @@ var MapWithMarkers = function() {
 
     var initializeLocations = function() {
         self.mapLocations = ko.observableArray([{
-            name: 'Wrigley Field',
-            address: '1060 W Addison St, Chicago, IL 60613',
+            name: 'Rqmnh',
+            address: 'Khalid Ibn walid',
             location: {
-                lat: 41.947454,
-                lng: -87.656134
+                lat: 24.772203,
+                lng: 46.755352
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'John Hancock Observatory',
-            address: '875 N Michigan Avenue, Chicago, IL 60611',
+            name: 'Elm 1',
+            address: 'Al Urubah ranch Rd, Almathar',
             location: {
-                lat: 41.898883,
-                lng: -87.623150
+                lat: 24.708342,
+                lng: 46.664716
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Progressive Field',
-            address: '2401 Ontario St, Cleveland, OH 44115',
+            name: 'Elm 2',
+            address: 'King Fahad street',
             location: {
-                lat: 41.495705,
-                lng: -81.685273
+                lat: 24.712756,
+                lng: 46.672456
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Comerica Park',
-            address: '2100 Woodward Ave, Detroit, MI 48201',
+            name: 'Smaat',
+            address: 'Khalid Ibn walid',
             location: {
-                lat: 42.3389,
-                lng: -83.0485
+                lat: 24.776963,
+                lng: 46.752685
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Dodger Stadium',
-            address: '1000 Vin Scully Ave, Los Angeles, CA 90012',
+            name: 'King saud University',
+            address: 'King Abdullah street',
             location: {
-                lat: 34.073873,
-                lng: -118.240777
+                lat: 24.712958,
+                lng: 46.622599
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Safeco Field',
-            address: '1250 1st Ave S, Seattle, WA 98134',
+            name: 'Khamis Mushait City',
+            address: 'Prince sultan Rd',
             location: {
-                lat: 47.5914,
-                lng: -122.3323
+                lat: 18.303253,
+                lng: 42.762152
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Petco Park',
-            address: '100 Park Blvd, San Diego, CA 92101',
+            name: 'India',
+            address: 'Gourav path',
             location: {
-                lat: 32.707205,
-                lng: -117.155795
+                lat: 23.109907,
+                lng: 79.597925
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Angel Stadium',
-            address: '2000 E Gene Autry Way, Anaheim, CA 92806',
+            name: 'United Arab Emirates',
+            address: 'King slman',
             location: {
-                lat: 33.800290,
-                lng: -117.882749
+                lat: 23.836071,
+                lng: 54.116937
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Yankee Stadium',
-            address: '1 E 161st St, Bronx, NY 10451',
+            name: 'Khartoum',
+            address: 'Air St',
             location: {
-                lat: 40.8296,
-                lng: -73.9262
+                lat: 15.504809,
+                lng: 32.569836
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Citizen\'s Bank Park',
-            address: '1 Citizens Bank Way, Philadelphia, PA 19148, USA',
+            name: 'Rome',
+            address: 'Via Tiburtina',
             location: {
-                lat: 39.906,
-                lng: -75.1666
+                lat: 41.901809,
+                lng: 12.494788
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Nationals Park',
-            address: '1500 S Capitol St SE, Washington, DC 20003',
+            name: 'Ankara',
+            address: 'Mevlana BIv.',
             location: {
-                lat: 38.8729,
-                lng: -77.0075
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Citi Field',
-            address: '123-01 Roosevelt Ave, Queens, NY 11368',
-            location: {
-                lat: 40.757,
-                lng: -73.8458
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Met Life Stadium',
-            address: '1 MetLife Stadium Dr, East Rutherford, NJ 07073',
-            location: {
-                lat: 40.8128,
-                lng: -74.0742
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Tropicana Field',
-            address: '1 Tropicana Dr, St. Petersburg, FL 33705',
-            location: {
-                lat: 27.768111,
-                lng: -82.653269
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Great American Ballpark',
-            address: '100 Joe Nuxhall Way, Cincinnati, OH 45202',
-            location: {
-                lat: 39.0979,
-                lng: -84.5082
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Miller Park',
-            address: '1 Brewers Way, Milwaukee, WI 53214',
-            location: {
-                lat: 43.0282,
-                lng: -87.9713
-            },
-            isVisible: ko.observable(true)
-        },{
-            name: 'Lambeau Field',
-            address: '1265 Lombardi Ave, Green Bay, WI 54304',
-            location: {
-                lat: 44.5013,
-                lng: -88.0622
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Hubert H. Humphrey Metrodome',
-            address: '900 S 5th St, Minneapolis, MN 55415',
-            location: {
-                lat: 44.9739,
-                lng: -93.2581
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Rogers Centre',
-            address: '1 Blue Jays Way, Toronto, ON M5V 1J1, Canada',
-            location: {
-                lat: 43.6414,
-                lng: -79.3894
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Bahamas',
-            address: 'Bahamas',
-            location: {
-                lat: 25.025885,
-                lng: -78.035889
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'CN Tower',
-            address: '301 Front St W, Toronto, ON M5V 2T6, Canada',
-            location: {
-                lat: 43.6426,
-                lng: -79.3871
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Petra',
-            address: 'Petra , Jordan',
-            location: {
-                lat: 30.328454,
-                lng: 35.444362
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Mount Nebo',
-            address: 'Mount Nebo, Jordan',
-            location: {
-                lat: 31.767658,
-                lng: 35.725615
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Wadi Rum',
-            address: 'Wadi Rum, Jordan',
-            location: {
-                lat: 29.534667,
-                lng: 35.407909
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Dead Sea',
-            address: 'Dead Sea, Jordan',
-            location: {
-                lat: 31.559029,
-                lng: 35.473189
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Amman',
-            address: 'Amman, Jordan',
-            location: {
-                lat: 31.951665,
-                lng: 35.939358
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Key West',
-            address: 'Key West, Florida',
-            location: {
-                lat: 24.555059,
-                lng: -81.779987
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Blarney Castle',
-            address: 'Blarney Castle, Ireland',
-            location: {
-                lat: 51.929092,
-                lng: -8.570885
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Kilkenny Castle',
-            address: 'Kilkenny Castle, Ireland',
-            location: {
-                lat: 52.650462,
-                lng: -7.249298
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Waterford Crystal Factory',
-            address: '28 The Mall, Waterford, Ireland',
-            location: {
-                lat: 52.259680,
-                lng: -7.106475
-            },
-            isVisible: ko.observable(true)
-        }, {
-            name: 'Dublin',
-            address: 'Dublin, Ireland',
-            location: {
-                lat: 53.349805,
-                lng: -6.260310
+                lat: 39.931478,
+                lng: 32.890224
             },
             isVisible: ko.observable(true)
         }]);
