@@ -26,7 +26,7 @@ var MapWithMarkers = function() {
             mapTypeControl: false
         });
 
-    	$.getJSON( "./js/styles.json", function( data ) {
+    	jQuery.getJSON( "./js/styles.json", function( data ) {
     		styles = data;
 		});
 
