@@ -40,7 +40,8 @@
             </nav>
             <main id="map" data-bind="css : {'map-full-screen': !drawerVisible() }" class="map-part-screen" ></main>
         </div>
-          <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoUGEPZo3XaXKnaqCimbZ5yoZbLIanPeI&callback=initMap"
-  type="text/javascript"></script>
+        <!--   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoUGEPZo3XaXKnaqCimbZ5yoZbLIanPeI&callback=initMap"
+  type="text/javascript"></script> -->
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoUGEPZo3XaXKnaqCimbZ5yoZbLIanPeI&callback=initMap" async onerror="loadError()" ></script>
     </body>
 </html>

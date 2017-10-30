@@ -13,10 +13,11 @@ To download all files click button {download ZIP}
 
 
 ## Running the tests
-
-*download all files
-*open zip file
-*open index.html
+* Run online [Demo](https://ralsaaran.github.io/Map-master/)
+* Run offline
+** download all files
+** open zip file
+** open index.html
 
 ## Built With
 
