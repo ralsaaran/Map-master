@@ -89,51 +89,51 @@ var MapWithMarkers = function() {
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Khamis Mushait City',
-            address: 'Prince sultan Rd',
+            name: 'Alfaisaliahmall',
+            address: 'King Fahad Rd',
             location: {
-                lat: 18.303253,
-                lng: 42.762152
+                lat: 24.694263,
+                lng: 46.685797
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'India',
-            address: 'Gourav path',
+            name: 'national museum',
+            address: 'King Fahad Rd',
             location: {
-                lat: 23.109907,
-                lng: 79.597925
+                lat: 24.648176,
+                lng: 46.711265
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'United Arab Emirates',
-            address: 'King slman',
+            name: 'Sheraton',
+            address: 'King Fahad',
             location: {
-                lat: 23.836071,
-                lng: 54.116937
+                lat: 24.727571,
+                lng: 46.665598
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Khartoum',
-            address: 'Air St',
+            name: 'InterContinental Riyadh',
+            address: 'King Fahad Rd',
             location: {
-                lat: 15.504809,
-                lng: 32.569836
+                lat: 24.668328,
+                lng: 46.690407
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Rome',
-            address: 'Via Tiburtina',
+            name: 'hayat-mall',
+            address: 'King Abdullah Rd',
             location: {
-                lat: 41.901809,
-                lng: 12.494788
+                lat: 24.743124,
+                lng: 46.680747
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Ankara',
-            address: 'Mevlana BIv.',
+            name: 'Al Imam Mohd Ibn Saud Islamic University',
+            address: 'Othman Bn Afan Rd',
             location: {
-                lat: 39.931478,
-                lng: 32.890224
+                lat: 24.811951,
+                lng: 46.693636
             },
             isVisible: ko.observable(true)
         }]);
