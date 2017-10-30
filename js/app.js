@@ -89,7 +89,7 @@ var MapWithMarkers = function() {
             },
             isVisible: ko.observable(true)
         }, {
-            name: 'Alfaisaliahmall',
+            name: 'Alfaisaliah mall',
             address: 'King Fahad Rd',
             location: {
                 lat: 24.694263,
